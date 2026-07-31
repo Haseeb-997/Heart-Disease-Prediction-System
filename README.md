@@ -84,7 +84,10 @@ Accuracy: **86.96%**
 
 ```
 heart-disease-prediction-system/
-│
+├── screenshots/
+│   ├── home.png
+│   ├── high_risk.png
+│   └── low_risk.png
 ├── app.py
 ├── heart.ipynb
 ├── heart.csv
@@ -127,14 +130,21 @@ streamlit run app.py
 
 # 📸 Screenshots
 
-## Home Page
+## 🏠 Home Page
 
-_Add screenshot here_
+![Home](screenshots/home.png)
 
-## Prediction Result
+---
 
-_Add screenshot here_
+## 🔴 High Risk Prediction
 
+![High Risk](screenshots/high_risk.png)
+
+---
+
+## 🟢 Low Risk Prediction
+
+![Low Risk](screenshots/low_risk.png)
 ---
 
 # 🔮 Future Improvements
