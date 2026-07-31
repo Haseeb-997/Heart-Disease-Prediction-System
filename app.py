@@ -23,7 +23,7 @@ with c2:
     ecg = st.selectbox("Resting ECG", ["Normal", "ST", "LVH"])
     hr = st.slider("Max HR", 60, 220, 150)
     ang = st.selectbox("Exercise Angina", ["Y", "N"])
-    old = st.slider("Oldpeak", 0.0, 6.0, 1.0)
+    old = st.number_input("Oldpeak", min_value = 0.0, max_value = 6.0, value = 1.0, step = 0.1, format = "%.01f")
     slope = st.selectbox("ST Slope", ["Up", "Flat", "Down"])
 
 if st.button("🚀 Predict", use_container_width = True):
